@@ -1,0 +1,16 @@
+.dark{
+  background-color: black;
+  color: white;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+button {
+  background-color: teal;
+  padding: 8px 15px;
+  color: aliceblue;
+  border-radius: 50px;
+}

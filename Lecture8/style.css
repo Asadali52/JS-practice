@@ -1,0 +1,51 @@
+body{
+  background-color: teal;
+}
+
+.container{
+  display: flex;
+  padding: 0px 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+}
+
+#button , #eListenerBtn {
+  background-color: black;
+  color: #ffffff;
+  margin: 20px;
+  box-shadow: 2px 2px 5px white , -2px -2px 5px white;
+  padding: 7px 15px;
+  border-radius: 30px;
+  letter-spacing: 1px;
+}
+
+#btn1 {
+  background-color: green;
+  color: #ffffff;
+  margin: 20px;
+  border: none;
+  box-shadow: 2px 2px 5px white , -2px -2px 5px white;
+  padding: 7px 15px;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  
+}
+
+.div , span , nav , section{
+  height: 150px;
+  width: 150px;
+  background-color: teal;
+  color: white;
+  display: flex;
+  text-align: center;
+  padding: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  justify-content: center;
+  box-shadow: 2px 2px 5px white , -2px -2px 5px white;
+  align-items: center;
+  border: 2px solid white;
+  font-size: 20px;
+  border-radius: 28px;
+}
